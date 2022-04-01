@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-data = pd.read_csv('./data.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
 print(data.head())
 
 st.sidebar.write("Project name")
