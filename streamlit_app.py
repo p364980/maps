@@ -5,4 +5,6 @@ data = pd.read_csv('data.csv')
 print(data.head())
 
 st.sidebar.write("Project name")
+st.sidebar.button('Click')
+
 st.write("hello world")
