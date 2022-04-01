@@ -12,6 +12,6 @@ df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.
 st.write("hello world")
 
 st.write(df.head())
-df = df[df.mass < (mass * 10000)]
+df = df[df.mass < (mass * 100000)]
 st.map(df)
 
