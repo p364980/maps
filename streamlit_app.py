@@ -12,4 +12,4 @@ st.write(df.head())
 
 st.map(df)
 
-st.sidebar.button('Click')
+mass = st.sidebar.slider(0, 90000000, 500000)
