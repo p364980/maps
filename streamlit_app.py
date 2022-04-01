@@ -4,7 +4,7 @@ import pandas as pd
 
 st.sidebar.write("Project name")
 
-mass = st.sidebar.slider('Mass', 0, 100)
+mass = st.sidebar.slider('Mass', 0, 80)
 
 df = pd.read_csv('https://raw.githubusercontent.com/quantum-apps/mapa/main/data.csv')
 
