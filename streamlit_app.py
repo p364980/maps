@@ -12,4 +12,4 @@ st.write(df.head())
 
 st.map(df)
 
-mass = st.sidebar.slider('Mass', 0, 90000000)
+mass = st.sidebar.slider('Mass', 0, 100)
